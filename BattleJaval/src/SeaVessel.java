@@ -21,12 +21,4 @@ public class SeaVessel {
         return "SeaVessel{" + "m_iLifePoints=" + m_iLifePoints + ", m_Missiles=" + m_Missiles + ", m_PosInfo=" + m_PosInfo + '}';
     }
 
-    public static void main(String[] args) {
-        SeaVessel.s_iNbMissilePerSlot = 10;
-        SeaVessel sv = new SeaVessel();
-        System.out.println( sv.getPositionInformation());
-        System.out.println( sv.isDestroyed());
-    }
-
-
 }

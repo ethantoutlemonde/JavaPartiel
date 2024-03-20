@@ -1,7 +1,9 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    /*private static Scanner s_Scanner = new Scanner(System.in);
+    private static Scanner s_Scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         Board.s_iHeight = 20;
@@ -17,5 +19,5 @@ public class Main {
         var infos = Main.s_Scanner.nextLine();
         var infosArray = infos.split(",");
         return infosArray;
-    }*/
+    }
 }

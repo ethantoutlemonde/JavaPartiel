@@ -7,7 +7,7 @@ public class Radar {
         s_iSearchRadius = p_iRadius;
     }
 
-    public List<PositionInformation> searchDetectables(List<IDectectable> p_IDetectables){
-        return p_IDetectable;
-    }
+    //public List<PositionInformation> searchDetectables(List<IDectectable> p_IDetectables){
+    //    return p_IDetectable;
+    //}
 }

@@ -6,6 +6,6 @@ public class WarBoat extends SeaVessel {
 
     @Override
     public String toString() {
-        return "WarBoat{" + "m_iLifePoints=" + m_iLifePoints + ", m_Missiles=" + m_Missiles + ", m_PosInfo=" + m_PosInfo + '}';
+        return "WarBoat has " + m_iLifePoints + " life points, and is positionned  coordinates ( " + m_PosInfo.toString() + " )a";
     }
 }

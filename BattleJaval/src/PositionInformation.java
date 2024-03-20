@@ -17,6 +17,6 @@ public class PositionInformation {
 
     @Override
     public String toString() {
-        return "Position: (" + m_iX + ", " + m_iY + ")";
+        return "coordinates ( " + m_iX + ", " + m_iY + " )in " + m_eOrientation + " and";
     }
 }
