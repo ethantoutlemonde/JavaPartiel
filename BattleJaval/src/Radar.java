@@ -1,7 +1,7 @@
 import java.util.List;
 
 public class Radar {
-    public int  s_iSearchRadius;
+    public static int  s_iSearchRadius;
 
     public Radar(int p_iRadius) {
         s_iSearchRadius = p_iRadius;

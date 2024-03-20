@@ -5,6 +5,9 @@ public class Submarine extends SeaVessel{
 
     public Submarine(Player p_PlayerOwner){
         m_PlayerOwner = p_PlayerOwner;
+        String[] tab = Main.getScannerInfo();
+        m_iLifePoints = Integer.parseInt(tab [0]);
+        m_PosInfo = new PositionInformation(Integer.parseInt(tab [1]), Integer.parseInt(tab [2]), Orientation.valueOf(tab [3]));
     }
 
     public void setEndPointTrajectory(){
@@ -20,9 +23,6 @@ public class Submarine extends SeaVessel{
 
     @Override
     public String toString() {
-        return "Submarine{" +
-                "m_PlayerOwner=" + m_PlayerOwner +
-                ", m_eDirection=" + m_eDirection +
-                '}';
+        return "Submarine has " + m_iLifePoints + " life points, and is positionned  " + m_PosInfo.toString() + " and it still has its Torpido";
     }
 }
